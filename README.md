@@ -32,7 +32,7 @@ $colorbarCoder->printColorbarImage(500, 500);
 
 This will print out image with 500 x 500 dimention. The default image extension is PNG. JPG format can be created by declaring JPG in the parameter. However, only PNG works for decoding the color bar as JPG will reduce the quality and result in different color code. Therefore, the original text will not be accurate. It is recommended to use PNG instead.
 
-Image here
+![alt text](https://github.com/Susros/ColorbarCoder/blob/master/test/img/5603e46d561cef1f6d00bdfebcd77742.png "This is awesome!")
 
 Decode the color bar image,
 
