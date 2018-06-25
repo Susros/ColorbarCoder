@@ -11,7 +11,7 @@
  *	color codes from it. The color codes are then decoded into original text.
  *
  *	@author    Kelvin Yin <contact@kelvinyin.com>
- *	@version   v1.0.0
+ *	@version   v1.0.1
  *	@since     v1.0.0
  *	@copyright 2018 ColorbarCoder
  *	@license   https://github.com/Susros/ColorbarCoder/blob/master/LICENSE
@@ -122,12 +122,10 @@ class ColorbarCoder {
 		$imageHeight = getimagesize($colorbar)[1];
 
 		// Get image type
-		$chunkImageFile = explode(".", $colorbar);
-		$imageExtension = end($chunkImageFile);
-		$imageExtension = strtolower($imageExtension);
+		$imageExtension = getimagesize($colorbar)['mime'];
 
 		// Get image
-		if ($imageExtension == "png") {
+		if ($imageExtension == "image/png") {
 			$image = imagecreatefrompng($colorbar);
 		} else {
 			$this->EBreak("Error", "Only PNG is allowed for image");
