@@ -1,6 +1,9 @@
 # ColorbarCoder
 ColorbarCoder encodes the original text string to color codes and decode color codes from color bar image into its original text.
 
+# Documentation
+Full documentation: [Here](http://www.colorbarcoder.com/docs)
+
 # Basic Usage
 Include ColorbarCoder if you are not using autoload.
 
@@ -55,3 +58,5 @@ Output
 ```
 This is awesome!
 ```
+
+For more usages: [See here](http://www.colorbarcoder.com/docs/usage)
