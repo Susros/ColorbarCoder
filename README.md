@@ -9,11 +9,31 @@ ColorbarCoder encodes the original text string to color codes and decode color c
 # Documentation
 Full documentation: [Here](http://www.colorbarcoder.com/docs)
 
+# Installation
+ColorbarCoder can be downloaded manually or cloneed by using:
+
+```
+git clone git@github.com:Susros/ColorbarCoder.git
+```
+
+ColorbarCoder is also availabe on Packagist. To install it with Composer, add this line to your ```composer.json``` file:
+
+```
+"susros/colorbarcoder" : "~1.0.2"
+```
+
+or run
+
+```
+composer require susros/colorbarcoder
+```
+
 # Basic Usage
 Include ColorbarCoder if you are not using autoload.
 
 ```php
-include_once "path/to/ColorbarCoder.php"
+include_once "path/to/ColorbarCoder.php";
+use ColorbarCoder\ColorbarCoder;
 ```
 
 Instantiate ColorbarCoder
