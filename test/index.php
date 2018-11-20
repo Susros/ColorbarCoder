@@ -2,6 +2,8 @@
 
 include "../src/ColorbarCoder.php";
 
+use ColorbarCoder\ColorbarCoder;
+
 $colorbarCoder = new ColorbarCoder();
 
 
