@@ -16,7 +16,7 @@ ColorbarCoder can be downloaded manually or cloneed by using:
 git clone git@github.com:Susros/ColorbarCoder.git
 ```
 
-ColorbarCoder is also availabe on Packagist. To install it with Composer, add this line to your ```composer.json``` file:
+ColorbarCoder is also availabe on [Packagist](https://packagist.org/packages/susros/colorbarcoder). To install it with Composer, add this line to your ```composer.json``` file:
 
 ```
 "susros/colorbarcoder" : "~1.0.2"
