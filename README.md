@@ -1,3 +1,8 @@
+
+<p align="center">
+	<img src="logo.png" width="350" alt="ColorbarCoder" />
+</p>
+
 # ColorbarCoder
 ColorbarCoder encodes the original text string to color codes and decode color codes from color bar image into its original text.
 
