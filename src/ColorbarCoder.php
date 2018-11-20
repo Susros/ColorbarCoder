@@ -1,5 +1,7 @@
 <?php
 
+namespace ColorbarCoder;
+
 /**
  *	Colorbar Coder
  *
